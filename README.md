@@ -1,0 +1,1 @@
+# [设计模式遵守的7大原则](https://github.com/SpanishSoap/DesignPattern/tree/master/src/main/java/cn/ohbee/principle)
