@@ -17,3 +17,4 @@
 - 对类来说的,即**一个类应该只负责一项职责**。若A类负责两个不同职责,职责1,职责2；当修改职责1时,可能会影响到职责2；所以我们需要将A类拆分为2个类。
 - 通常情况下,我们应当遵守单一职责原则;只有类中方法数量足够少,不同职责可以在一个类中完成,但是也需要在**方法级别**上**遵守单一职责**。
 ##### ⏰ 代码介绍
+- 代码示例访问项目下的 [cn.ohbee.principle.singleresponsibility](https://github.com/SpanishSoap/DesignPattern/tree/master/src/main/java/cn/ohbee/principle/singleresponsibility) 路径
