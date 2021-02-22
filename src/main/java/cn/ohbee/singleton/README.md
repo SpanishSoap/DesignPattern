@@ -2,7 +2,7 @@
 ## 一 概述
 - 在GoF一书中设计模式如下分类
   - 创建模式(Creational Patterns)
-    - Singleton
+    - Singleton [单例模式](https://github.com/SpanishSoap/DesignPattern/tree/master/src/main/java/cn/ohbee/singleton)
     - Factory Method
     - Abstract Factory
     - Builder

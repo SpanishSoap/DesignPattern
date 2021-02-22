@@ -1,1 +1,26 @@
-# [设计模式遵守的7大原则](https://github.com/SpanishSoap/DesignPattern/tree/master/src/main/java/cn/ohbee/principle)
+- 创建模式(Creational Patterns)
+    - Singleton [单例模式](https://github.com/SpanishSoap/DesignPattern/tree/master/src/main/java/cn/ohbee/singleton)
+    - Factory Method
+    - Abstract Factory
+    - Builder
+    - Prototype
+- 结构模式(Structural Patterns)
+    - Adapter
+    - Bridge
+    - Composite
+    - Decorator
+    - Facade
+    - Flyweight
+    - Proxy
+- 行为模式(Behavioral Patterns)
+    - Chain of Responsibility
+    - Command
+    - Interpreter
+    - Iterator
+    - Mediator
+    - Memento
+    - Observer
+    - State
+    - Strategy
+    - Template Method
+    - Visitor
