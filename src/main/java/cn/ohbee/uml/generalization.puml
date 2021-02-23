@@ -1,0 +1,8 @@
+@startuml
+class Father
+class Son
+Father ^--Son
+interface Read
+interface Action
+Read ^-- Action
+@enduml

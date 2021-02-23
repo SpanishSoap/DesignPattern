@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+'组合'
+
+class Car{
+ - carb: Carburetor
+}
+class Carburetor
+
+Car *-> Carburetor
+
+@enduml

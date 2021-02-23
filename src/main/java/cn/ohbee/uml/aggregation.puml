@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+/' aggregation 聚合 可以移除的依赖'/
+class Computer{
+- mouse: Mouse
+- monitor: Monitor
+}
+class Monitor
+class Mouse
+Computer o--> Monitor
+Computer o--> Mouse
+@enduml

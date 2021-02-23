@@ -1,5 +1,5 @@
 # 单例模式
-## 一 概述
+## 一. 概述
 - 在GoF一书中设计模式如下分类
   - 创建模式(Creational Patterns)
     - Singleton [单例模式](https://github.com/SpanishSoap/DesignPattern/tree/master/src/main/java/cn/ohbee/singleton)
@@ -27,13 +27,13 @@
     - Strategy
     - Template Method
     - Visitor
-## 二 单例模式介绍
+## 二. 单例模式介绍
 - Singleton模式的意图是：保证一个类仅有一个实例，并提供一个访问它的全局访问点。
 - Singleton模式下，每个应用程序中的每个对象都使用Singleton类的同一实例，在一个协作对象对Singleton类所作的修改对于另一个协作对象是可见的。
 - Singleton模式需要注意如下两点：
   - 为了确保类不被构造函数实例化，需要将类的构造函数定义为保护或者私有的。
   - 对外提供一个特殊方法，调用这个方法的时候，检查对象是否已经实例化。如果已经实例化，该方法仅返回对象的一个引用。如果尚未实例化，该方法实例化该对象并返回对此新实例的一个引用。
-## 三 单例模式的实现
+## 三. 单例模式的实现
 #### 1. 懒汉式 (线程不安全)
 ```java
 class Singleton{
@@ -156,7 +156,7 @@ enum Singleton{
 }
 ```
 - Effective Java作者推荐的解决方式，这种方式保证了线程安全，单一实例。
-## 三 单例模式的应用
+## 四. 单例模式的应用
 - 在JDK源码中 Runtime 使用了单例模式，如下:
 ```java
 public class Runtime {

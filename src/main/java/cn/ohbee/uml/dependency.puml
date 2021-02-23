@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/class-diagram
+/'依赖 '/
+interface Food
+class Human {
+    + eat (food: Food): void
+}
+Food <.. Human
+@enduml

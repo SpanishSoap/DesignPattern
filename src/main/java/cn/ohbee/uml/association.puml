@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+'关联关系'
+
+class Human{
+ - eye: Eye
+ - hand: Hand
+}
+
+class Hand
+class Eye
+
+Human --> "2" Hand
+Human --> "2" Eye
+
+@enduml
