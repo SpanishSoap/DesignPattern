@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+class PizzaStore {
+ +  orderPizza(type: String): Pizza
+}
+class SimplePizzaFactory{
+ +  createPizza(type: String): Pizza
+}
+PizzaStore --> SimplePizzaFactory
+SimplePizzaFactory --> Pizza
+abstract class  Pizza {
+ +  name: String
+ +  dough: String
+ +  sauce: String
+ +  toppings: List
+
+ + getName(): String
+ + prepare(): void
+ + bake(): void
+ + cut(): void
+ + box(): void
+}
+class CheesePizza
+class ClamPizza
+class PepperoniPizza
+class VeggiePizza
+Pizza <|-- CheesePizza
+Pizza <|-- ClamPizza
+Pizza <|-- PepperoniPizza
+Pizza <|-- VeggiePizza
+
+
+
+@enduml
