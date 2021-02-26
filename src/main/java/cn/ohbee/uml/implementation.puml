@@ -4,5 +4,5 @@
 /'implementation 实现关系'/
 interface Wisdom
 class Human
-Wisdom <|-- Human
+Wisdom <|.. Human
 @enduml

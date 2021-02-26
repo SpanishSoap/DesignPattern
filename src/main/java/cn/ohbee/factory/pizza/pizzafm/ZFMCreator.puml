@@ -15,6 +15,6 @@ class ConcreteCreator{
 
 Product <|-- ConcreteProduct
 Creator <|-- ConcreteCreator
-ConcreteCreator -left-> ConcreteProduct
+ConcreteCreator ..left..> ConcreteProduct
 
 @enduml
