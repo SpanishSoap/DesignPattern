@@ -1,4 +1,35 @@
-# 浅拷贝和深拷贝
+#### 一. 概述
+- 在GoF一书中设计模式如下分类
+    - 创建模式(Creational Patterns)
+        - Singleton [单例模式](https://github.com/SpanishSoap/DesignPattern/tree/master/src/main/java/cn/ohbee/singleton)
+        - Factory Method [工厂方法模式](https://github.com/SpanishSoap/DesignPattern/tree/master/src/main/java/cn/ohbee/factory/method)
+        - Abstract Factory
+        - Builder
+        - Prototype [原型模式]()
+    - 结构模式(Structural Patterns)
+        - Adapter
+        - Bridge
+        - Composite
+        - Decorator
+        - Facade
+        - Flyweight
+        - Proxy
+    - 行为模式(Behavioral Patterns)
+        - Chain of Responsibility
+        - Command
+        - Interpreter
+        - Iterator
+        - Mediator
+        - Memento
+        - Observer
+        - State
+        - Strategy
+        - Template Method
+        - Visitor
+## 二. 原型模式介绍
+- 原型模式(Prototype)是创建模式(Creational Patterns)中的一种，其的意图是通过复制一个现有的对象来生成新的对象，而不是通过实例化的方式。
+- 原型模式优点：① 用户调用拷贝方法创建新对象，屏蔽了创建对象的复杂性 ② 可以在程序运行中拷贝对象状态创建新对象(若程序创建了一个复杂的对象，需要创建一个相同的状态的对象，可以使用拷贝模式)
+# 使用浅拷贝和深拷贝实现原型拷贝
 #### 一. 浅拷贝和深拷贝
 - 浅拷贝:拷贝对象属性时, 对于基础类型来说，会拷贝具体的内容，但是对于引用对象来说，存储的这个值只是指向实际对象的地址，拷贝也只会拷贝引用地址。
   ![image](https://media.ohbee.cn/blog_thumbnail_41.png)
@@ -141,32 +172,4 @@ public class DeepAnimalTest {
 }
 ```
 > 上述测试方法返回 `深拷贝是否为同一对象: false`
-# 浅拷贝和深拷贝
-#### 一. 概述
-- 在GoF一书中设计模式如下分类
-    - 创建模式(Creational Patterns)
-        - Singleton [单例模式](https://github.com/SpanishSoap/DesignPattern/tree/master/src/main/java/cn/ohbee/singleton)
-        - Factory Method [工厂方法模式](https://github.com/SpanishSoap/DesignPattern/tree/master/src/main/java/cn/ohbee/factory/method)
-        - Abstract Factory
-        - Builder
-        - Prototype
-    - 结构模式(Structural Patterns)
-        - Adapter
-        - Bridge
-        - Composite
-        - Decorator
-        - Facade
-        - Flyweight
-        - Proxy
-    - 行为模式(Behavioral Patterns)
-        - Chain of Responsibility
-        - Command
-        - Interpreter
-        - Iterator
-        - Mediator
-        - Memento
-        - Observer
-        - State
-        - Strategy
-        - Template Method
-        - Visitor
+
